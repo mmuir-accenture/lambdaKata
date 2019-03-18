@@ -1,6 +1,6 @@
 language: java
 script:
-  - cd /home/travis/build/mmuir-accenture/lambdaKataq
+  - cd /home/travis/build/mmuir-accenture/lambdaKata
   - ./gradlew test
 before_cache:
   - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
