@@ -1,5 +1,5 @@
-    - language: java
-      script:
+language: java
+	script:
         - cd /home/travis/build/mmuir-accenture/lambdaKataq
         - ./gradlew assemble
         - ./gradlew check
